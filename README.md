@@ -75,7 +75,7 @@ function makeCode () {
 		return;
 	}
 	var vUrl="https://docs.google.com/forms/d/e/1FAIpQLScgMD8sdTPzzCN_ykfK10Hu1Akqgyta0tOi1eFO8H67rF38-g/formResponse?usp=pp_url&entry.144300349="+vId+"&entry.1923719371="+encodeURIComponent(vNombre)+"&entry.384201736="+encodeURIComponent(vTransporte);
-	var vTexto=vId + " - " + vNombre;
+	var vTexto=vId + " - " + vNombre + " - R" + vTransporte;
 	qrcode.makeCode(vUrl, vTexto);
 }
 
