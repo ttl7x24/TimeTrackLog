@@ -43,7 +43,7 @@ var QRCode;!function(){function e(t){this.mode=n.MODE_8BIT_BYTE,this.data=t,this
 <input id="nombre" name="nombre" type="text" value=""  />
 </div>
 <div class="ui-field-contain">
-<label for="trasporte">Ubicación:</label>
+<label for="trasporte">Ruta:</label>
 <input id="trasporte" name="trasporte" type="text" value="" />
 </div>
 </form>
